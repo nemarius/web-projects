@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<style>
+.background-color {
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+.right-heart {
+width: 150px;
+height: 300px;
+background-color: hsl(0, 50%, 75%);
+border-color: hsl(0, 25%, 50%);
+border-width: 30px;
+border-style: solid;
+border-radius: 150px 150px 0 300px;
+transform: rotate(45deg);
+position: absolute;
+left: 560px;
+margin: auto;
+z-index: 2;
+}
+.left-heart {
+width: 150px;
+height: 300px;
+background-color: cyan;
+border-color: hsl(240, 25%, 50%);
+border-width: 30px;
+border-style: solid;
+border-radius: 150px 150px 300px 0;
+transform: rotate(-45deg);
+position: absolute;
+left: 450px;
+margin: auto;
+z-index: 1;
+}
+</style>
+
+<body class="background-color">
+<div class="right-heart"></div>
+<div class="left-heart"></div>
+</body>
